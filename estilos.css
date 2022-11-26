@@ -1,0 +1,84 @@
+*{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 100px;
+    padding: 10px;
+    margin: 0 auto;
+    color: white;
+}
+
+.video{
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -50;
+}
+
+.foto {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    left: 520px;
+  }
+
+ .titulo{
+    position: relative;
+    left: 500px;
+ } 
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.rd{
+    width: 100px;
+    height: 100px;
+}
+
+.eeuu{
+    width: 101px;
+    height: 100px;
+}
+
+.elite-titu{
+    position: relative;
+    left: 600px;
+}
+
+.elite-img{
+    position: relative;
+    left: 450px;
+    height: 200px;
+    width: 350px;
+}
+
+.telegram{
+    height: 60px;
+    width: 60px;
+    top: 20px;
+    position: relative;
+}
+
+.whatsapp{
+    height: 60px;
+    width: 60px;
+    top: 20px;
+    position: relative;
+}
+
+
+.texto{
+  left: 25px;  
+  top: 50px;
+  color: rgb(255, 255, 255);
+  font-weight: 500px;
+}
+
+.btn-calcular{
+    background:none;
+    color: black;
+}

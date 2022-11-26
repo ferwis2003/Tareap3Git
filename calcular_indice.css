@@ -1,0 +1,101 @@
+*{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: rgb(0, 0, 0); 
+}
+
+.video2{
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -50;
+}
+
+form{
+    margin: 0 auto;
+    width: 300px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    outline: none;
+}
+
+.input{
+    display: grid;
+    position: relative;
+}
+
+#ingresar{
+    background: none;
+    height: 20px;
+    color: white;
+    font-size: 18px;
+    display: grid;
+    place-items: center;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+#pago{
+    background: none;
+    height: 20px;
+    color: white;
+    font-size: 18px;
+    display: grid;
+    place-items: center;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 10px;  
+}
+
+.btn_pagar{
+    background:none;
+    color: black;
+    margin: 5px;
+    width: 93px;
+    height: 36px;
+    font-size: 20px;
+    position: relative;
+    left: 510px;
+    top: -0px;
+}
+
+.btn_pagar:hover{
+    background-color: rgb(66, 66, 66);
+    color: rgb(72, 255, 0);
+}
+
+.btn_regreso{
+    background:none;
+    color: black;
+    width: 93px;
+    height: 36px;
+    font-size: 20px;
+    position: relative;
+    left: 600px;
+    top: -0px;
+}
+
+.btn_regreso:hover{
+    background-color: rgb(66, 66, 66);
+    color: rgb(72, 255, 0);
+}
+
+.btn_suma{
+    background: none;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    box-shadow: 5px;
+    display: inline-block;
+    background-color: rgb(102, 89, 89);
+}
+
